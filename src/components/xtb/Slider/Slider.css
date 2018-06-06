@@ -1,0 +1,9 @@
+.xtb-slider-content{ display: inline-block; width: 100px; height: 50px; }
+.xtb-slider{ position: relative; left: 0; top: 0; width: 100%; height: 100%; }
+.xtb-progress-panel{ position: relative; width: 80px; height: 34px; text-align: center; line-height: 34px; background: #5b6b73; border-radius: 3px; font-family: 'MicroSoft YaHei'; }
+/*.xtb-progress-panel:after{ position: absolute; width: 80px; height: 34px; background: #5b6b73; border-radius: 3px; overflow: hidden; }*/
+.xtb-progress-panel:before{ position: absolute; bottom: -14px; left: 33px; content: ''; border-width: 7px; border-style: solid; border-color: #5b6b73 transparent transparent transparent; }
+.xtb-progress-panel span{ font-size: 15px; color: #fff; }
+
+.xtb-slider-ball{ width: 20px; height: 20px; text-align: center; line-height: 20px; background: #fff; border-radius: 10rem; box-shadow: 0px 3px 3px #ddd; }
+.xtb-slider-ball-dot{ display: inline-block; width: 8px; height: 8px; background: #1593FF; border-radius: 10rem; }

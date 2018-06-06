@@ -1,0 +1,63 @@
+span{ color: #5B6B73; font-size: 15px; }
+
+.operation-panel{ display: inline-block; position: absolute; left: 0; top: 0; z-index: 1000; width: 300px; overflow: auto; box-shadow: 0 5px 10px #d0d0d0; }
+.operation-panel-head{ padding: 0; width: 100%; height: 50px; background: #f7f7f7; cursor: all-scroll; }
+.panel-head-title{ margin-left: 20px; text-align: left; line-height: 50px; font-size: 18px; }
+.close-action{ margin-right: 20px; width: 100%; text-align: center; line-height: 50px; font-size: 18px; cursor: pointer; }
+.operation-panel-content{ background: #fff; }
+.text-panel-select{ margin: 0 auto; width: 250px; }
+.text-item{ display: block; margin: 0 auto; width: 90px; height: 44px; text-align: center; line-height: 44px; font-size: 18px; color: #707070; }
+.actived-item{ border-bottom: 1px solid #1593ff; color: #1593ff; font-weight: bold; }
+
+.panel-item{ display: flex; justify-content: space-between; align-items: center; margin: 15px auto 0; width: 250px; }
+.item-title{ display: block; height: 30px; line-height: 30px; }
+
+.text-panel-title, .text-panel-content{ margin: 15px auto 0; width: 250px; }
+.text-number-action{ display: flex; justify-content: space-between; align-items: center; width: 160px; }
+.text-font, .text-number{ display: flex; justify-content: space-between; align-items: center; margin: 15px auto 0; width: 250px; font-size: 15px; }
+.text-font-selector{ width: 158px; height: 33px; }
+.text-number-selector, .action-plus-minus{ width: 73px; height: 33px; }
+.action-plus-minus{ display: flex; justify-content: space-between; align-items: center; width: 73px; height: 33px; text-align: center; line-height: 33px; border: 1px solid #b6bdc4; border-radius: 4px; }
+.text-number-plus, .text-number-minus{ width: 36px; font-size: 15px; color: #000; }
+.text-number-plus{ border-right: 1px solid #b6bdc4; }
+
+.font-style, .font-color, .background-color{ display: flex; justify-content: space-between; align-items: center; margin: 15px auto 0; width: 250px; }
+.font-style-action{ width: 20px; height: 25px; }
+.font-style-action a{ display: block; width: 100%; height: 100%; font-size: 16px !important; }
+
+.font-color-list{ display: flex; justify-content: space-between; align-items: center; width: 160px; height: 37px; }
+.font-color-panel{ width: 58px; height: 35px; border: 1px solid #bac5cc; border-radius: 4px; overflow: hidden; }
+.color-selector{ display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; width: 85px; height: 100%; }
+.color-selector div{ margin: 0; padding: 0; width: 15px; height: 15px; border: 1px solid #bac5cc; border-radius: 4px; }
+
+.color-white{ background: #ffffff; }
+.color-orange{ background: #ff5448; }
+.color-brown{ background: #f2a653; }
+.color-yellow{ background: #ffca28; }
+.color-verdancy{ background: #18cfa1; }
+.color-blue{ background: #00b7ee; }
+.color-deongaree{ background: #fd8ff3; }
+.color-purple{ background: #7171ef; }
+.color-gray{ background: #4e5975; }
+.color-black{ background: #000000; }
+
+.textInlineHeight, .textLetterSpace{ display: flex; justify-content: space-between; align-items: center; margin: 15px auto 0; width: 250px; }
+.adjust-action{ display: flex; justify-content: space-between; align-items: center; width: 160px; height: 37px; }
+.inner-height-selector, .text-letterSpace-selector{ width: 100px; }
+.inner-height-input, .text-letterSpace-input{ width: 49px; height: 37px; }
+.inner-height-input div, .text-letterSpace-input div{ width: 100%; height: 100%; }
+
+.line{ width: 70px; height: 1px; background: #ccd5db; }
+.title{ font-size: 18px; color: #5b6b73; }
+
+.redirec-lList{ display: flex; justify-content: flex-start; align-items: center; flex-wrap: wrap; width: 160px; height: 60px; }
+.redirect-item{ margin: 0; width: 50%; height: 30px; line-height: 30px; }
+
+.redirect-pages, .phone-number{ width: 160px; }
+
+.exterior-panel{ width: 100%; }
+.panel-content{ width: 100%; }
+.exterior-title{ display: flex; justify-content: flex-start; align-items: center;margin: 15px 0 0; padding: 0 25px 0; width: 100%; height: 50px; background: #f7f7f7; font-size: 15px; color: #5B6B73; }
+.exterior-title span{ font-size: 15px; color: #5B6B73; }
+.exterior-title:hover{ background: #1593ff; color: #fff; cursor: pointer; }
+.exterior-title:hover span{ color: #fff; }

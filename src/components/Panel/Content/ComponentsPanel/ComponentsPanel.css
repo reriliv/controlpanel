@@ -1,0 +1,66 @@
+span{ color: #5B6B73; font-size: 15px; }
+
+.operation-panel{ display: inline-block; position: absolute; left: 0; top: 0; z-index: 1000; width: 300px; background: #fff; box-shadow: 0 5px 10px #d0d0d0; }
+/*::-webkit-scrollbar{ width: 5px; }*/
+::-webkit-scrollbar{ width: 5px; height: 16px; background-color: transparent; }
+/*定义滚动条轨道 内阴影+圆角*/  
+::-webkit-scrollbar-track{ border-radius: 10rem; }
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb{ border-radius: 10rem; -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3); background-color: #ddd; opacity: 0.5; }
+.operation-panel-head{ padding: 0; width: 100%; height: 50px; background: #f7f7f7; cursor: all-scroll; }
+.panel-head-title{ margin-left: 20px; text-align: left; line-height: 50px; font-size: 18px; }
+.close-action{ margin-right: 20px; width: 100%; text-align: center; line-height: 50px; font-size: 18px; cursor: pointer; }
+.operation-scroll-content{ position: relative; width: 100%; height: 750px; -webkit-overflow-y: auto; overflow-y: auto; -webkit-overflow-x: hidden; overflow-x: hidden; }
+.operation-panel-content{ position: absolute; top: 50px; left: 0px; width: 300px; background: #fff; }
+.text-panel-select{ margin: 0 auto; width: 250px; }
+.text-item{ display: block; margin: 0 auto; width: 90px; height: 44px; text-align: center; line-height: 44px; font-size: 18px; color: #707070; }
+.actived-item{ border-bottom: 1px solid #1593ff; color: #1593ff; font-weight: bold; }
+
+.panel-item{ display: flex; justify-content: space-between; align-items: center; position: relative; margin: 15px auto 0; width: 250px; }
+.item-title{ display: block; height: 30px; line-height: 30px; }
+
+.image-show-area{ width: 248px; height: 188px; text-align: center; border: 1px solid #b6bdc4; border-radius: 4px; }
+.image-show-area img{ height: 100%; }
+
+.function-set-title{ display: flex; justify-content: space-between; align-items: center; margin: 15px auto 0; width: 250px; }
+.line{ width: 70px; height: 1px; background: #ccd5db; }
+.title{ font-size: 18px; color: #5b6b73; }
+
+.redirect-list{ display: flex; justify-content: flex-start; align-items: center; flex-wrap: wrap; width: 160px; height: 60px; }
+.redirect-ltem{ margin: 0; width: 50%; }
+
+.image-action-item{ display: inline-block; width: 73px; height: 34px; text-align: center; line-height: 34px; border: 1px solid #1593FF; border-radius: 4px; }
+.image-action-item:active, .image-action-item:last-child{ background: #1593ff; color: #fff; }
+.image-action-item:last-child:active{ background: #fff; color: #1593ff; }
+
+.redirect-pages, .phone-number{ width: 160px; }
+
+.exterior-panel{ width: 300px; }
+.exterior-action{ display: flex; justify-content: flex-start; align-items: center; margin: 15px 0 0; padding: 0 25px 0; width: 100%; height: 50px; background: #f7f7f7; font-size: 15px; color: #5B6B73; }
+.exterior-action span{ font-size: 15px; color: #5B6B73; }
+.exterior-action:hover{ background: #1593ff; color: #fff; cursor: pointer; }
+.exterior-action:hover span{ color: #fff; }
+.exterior-content{ display: none; width:  }
+.control-position-list{ display: flex; justify-content: space-between; align-items: center; margin: 20px auto 0; width: 250px; }
+.control-position-item{  }
+
+.font-color-list{ display: flex; justify-content: space-between; align-items: center; width: 160px; height: 37px; }
+.font-color-panel{ width: 58px; height: 35px; border: 1px solid #bac5cc; border-radius: 4px; overflow: hidden; }
+.color-selector{ display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; width: 85px; height: 100%; }
+.color-selector div{ margin: 0; padding: 0; width: 15px; height: 15px; border: 1px solid #bac5cc; border-radius: 4px; }
+.color-white{ background: #ffffff; }
+.color-orange{ background: #ff5448; }
+.color-brown{ background: #f2a653; }
+.color-yellow{ background: #ffca28; }
+.color-verdancy{ background: #18cfa1; }
+.color-blue{ background: #00b7ee; }
+.color-deongaree{ background: #fd8ff3; }
+.color-purple{ background: #7171ef; }
+.color-gray{ background: #4e5975; }
+.color-black{ background: #000000; }
+
+.textInlineHeight, .textLetterSpace{ display: flex; justify-content: space-between; align-items: center; margin: 15px auto 0; width: 250px; }
+.adjust-action{ display: flex; justify-content: space-between; align-items: center; width: 160px; height: 37px; }
+.inner-height-selector, .text-letterSpace-selector{ width: 100px; }
+.inner-height-input, .text-letterSpace-input{ width: 55px; height: 37px; }
+.inner-height-input div, .text-letterSpace-input div{ width: 100%; height: 100%; }

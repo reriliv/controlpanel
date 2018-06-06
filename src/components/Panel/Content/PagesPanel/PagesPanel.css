@@ -1,0 +1,12 @@
+.pagesPanel{ background: #fff; }
+.pagesHead{ background: #f7f7f7; }
+.headTitle{ margin: 0 auto; width: 230px; height: 50px; line-height: 50px; color: #5B6B73; font-size: 18px; }
+.pagesAction{ display: flex; justify-content: space-between; align-items: center; width: 100%; height: 50px; border-width: 1px; border-style: solid; border-color: #e6ebed transparent #e6ebed transparent; }
+.actionItem{ width: 33%; height: 100%; line-height: 50px; text-align: center; font-size: 16px; color: #5B6B73; }
+.pagesContent{ overflow: auto; }
+.pageThumbItem{ display: flex; justify-content: space-between; align-items: flex-start; padding: 0 10px; width: 100%; }
+.pagesNumber{ width: 30px; height: 30px; text-align: center; line-height: 30px; border-radius: 10rem; background: #08a1ef; color: #fff; font-family: 'MicroSoft YaHei'; font-weight: bold; font-size: 18px; }
+.thumbPage{ width: 150px; height: 228px; }
+.thumbPage img{ display: block; width: 100%; }.pagesPositionAction{ display: inline-block; align-self: flex-end; width: 30px; height: 70px; }
+.upAction, .downAction{ display: block; padding: 0; width: 30px; height: 30px; }
+.upAction{ margin-bottom: 10px; }

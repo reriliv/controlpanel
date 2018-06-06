@@ -1,0 +1,4 @@
+.toolItem{ margin: 15px auto 0; width: 31px;}
+.toolItem a{ text-align: center; color: #5B6B73; font-size: 15.5px; }
+.toolItem i{ width: 25px; height: 25px; background: #e7e7e7; font-size: 22px; }
+.toolItem p{ margin: 0; padding: 0; }

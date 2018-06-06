@@ -1,0 +1,10 @@
+.header{ position: relative; z-index: 1; margin: 0 auto; padding: 0; background: #fff; width: 100%; height: 70px; box-shadow: 0 1px 5px #ddd; overflow: hidden; }
+.backAction{ line-height: 70px; }
+.backAction i, .backAction span{ display: inline-block; vertical-align: middle; margin: 0 5px; }
+.modeItem{ margin-top: 14px; text-align: center; line-height: 2.5; }
+.modeItem p{ margin: 0; line-height: 0; }
+.zoom{ display: inline-block; margin-top: 5px; width: 130px; height: 60px; }
+.zoomAction{ margin-top: 7px; text-align: center; line-height: 35px; }
+.zoomAction a{ color: #333; }
+.zoomMinusAction, .zoomPlusAction{ padding: 0 10px 0; }
+.zoomRate{ margin: 0; text-align: center; line-height: 0; }
